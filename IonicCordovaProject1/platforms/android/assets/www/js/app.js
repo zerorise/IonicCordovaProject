@@ -41,8 +41,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.dash', {
     url: '/dash',
     views: {
-      'tab-dash': {
-        templateUrl: 'templates/tab-dash.html',
+      'tab-home': {
+        templateUrl: 'templates/tab-home.html',
         controller: 'DashCtrl'
       }
     }
@@ -51,8 +51,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.chats', {
       url: '/chats',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
+        'tab-map': {
+          templateUrl: 'templates/tab-map.html',
           controller: 'ChatsCtrl'
         }
       }
@@ -60,7 +60,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     .state('tab.chat-detail', {
       url: '/chats/:chatId',
       views: {
-        'tab-chats': {
+        'tab-map': {
           templateUrl: 'templates/chat-detail.html',
           controller: 'ChatDetailCtrl'
         }
@@ -70,8 +70,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   .state('tab.account', {
     url: '/account',
     views: {
-      'tab-account': {
-        templateUrl: 'templates/tab-account.html',
+      'tab-ranking': {
+        templateUrl: 'templates/tab-ranking.html',
         controller: 'AccountCtrl'
       }
     }
